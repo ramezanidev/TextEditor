@@ -1,0 +1,221 @@
+@import url('https://v1.fontapi.ir/css/Estedad');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 940px;
+    height: 100%;
+    padding: 12px;
+}
+.cover{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tool_bar{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    border-bottom: 1px solid;
+}
+
+.clipboard_box{
+    display: flex;
+    flex: auto;
+    border-right: 1px solid #ccc;
+    margin: 5px 0;
+    flex-wrap: wrap;
+}
+.font_box{
+    display: flex;
+    flex: auto;
+    border-right: 1px solid #ccc;
+    margin: 5px 0;
+    flex-wrap: wrap;
+
+}
+.dir_box{
+    display: flex;
+    flex: auto;
+    border-right: 1px solid #ccc;
+    margin: 5px 0;
+
+}
+.selector_box{
+    display: flex;
+    flex: auto;
+    border-right: 1px solid #ccc;
+    margin: 5px 0;
+    flex-wrap: wrap;
+}
+.insert_box{
+    display: flex;
+    flex: auto;
+    margin: 5px 0;
+    flex-wrap: wrap;
+}
+button{
+    
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+.text_box{
+    height: calc(100% - 110px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 7px;
+}
+.iframe{
+    height: 100%;
+    width: 700px;
+    border: 1px solid #858585;
+    background-color: #fff;
+}
+
+
+.font_select{
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #777;
+    padding: 2px;
+    margin: 0 3px;
+    font-size: 12px;
+}
+.size_select{
+    width: 44px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #777;
+    padding: 2px;
+    margin: 0 3px;
+    font-size: 12px;
+    text-align: center;
+}
+.CreateTag{
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #777;
+    padding: 2px;
+    margin: 0 3px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+.Bg_color_select,.color_select{
+    width: 45px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #777;
+    padding: 2px;
+    margin: 0 3px;
+    font-size: 12px;
+    position: relative;
+}
+.Bg_color_select span,.color_select span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Bg_color_select i,.color_select i{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 1px;
+    color: #000;
+}
+.Bg_color_select ul,.color_select ul{
+    position: absolute;
+    width: 110px;
+    height: auto;
+    background-color: #f1f1f1;
+    top: 100%;
+    left: 0;
+    border: 1px solid #00000045;
+    box-shadow: 0px 0px 6px 0px #00000024;
+    display: none;
+    flex-wrap: wrap;
+    padding: 5px;
+    cursor: default;
+}
+.Bg_color_select_show ul,.color_select_show ul{
+    display: flex;
+}
+.Bg_color_select ul li,.color_select ul li{
+    width: 18px;
+    height: 18px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.color_select span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    font-weight: bolder;
+    font-family: Estedad;
+}
+.color_select{
+    width: 60px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
